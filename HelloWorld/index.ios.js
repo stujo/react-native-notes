@@ -15,7 +15,7 @@ var {
   View,
 } = React;
 
-var HelloWorld = React.createClass({
+var HelloWorldApp = React.createClass({
   render: function() {
     return (
       <View style={styles.container}>
@@ -53,4 +53,4 @@ var styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
+AppRegistry.registerComponent('HelloWorldApp', () => HelloWorldApp);

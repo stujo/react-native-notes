@@ -42,7 +42,7 @@
 //   jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                      moduleName:@"HelloWorld"
+                                                      moduleName:@"HelloWorldApp" // Looks like this is React Component
                                                initialProperties:nil
                                                    launchOptions:launchOptions];
 
