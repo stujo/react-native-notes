@@ -5,6 +5,9 @@
 'use strict';
 
 var React = require('react-native');
+
+// Destructuring Assignment : 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 var {
   AppRegistry,
   StyleSheet,
